@@ -1,5 +1,5 @@
 body {
-  font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Verdana", "sans-serif";
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Verdana", "sans-serif";
   padding: 10px;
 }
 
@@ -88,7 +88,7 @@ h5 {
     margin-top: 10px;
     text-align: center;
   }
-  
+
   #image {
     background: white;
     padding: 1px;
@@ -111,7 +111,7 @@ h5 {
   }
 
   li {
-    margin: 16px 30px 16px 0;;
+    margin: 16px 30px 16px 0;
   }
 
   h4 {
@@ -124,7 +124,7 @@ h5 {
     text-align: start;
     font-style: italic;
     padding: 0 40px;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 50px;
     font-size: medium;
   }
 
