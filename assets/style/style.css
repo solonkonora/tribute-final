@@ -1,5 +1,5 @@
 body{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
   padding: 10px;
 }
 
@@ -11,7 +11,7 @@ header{
 
 #main {
   margin: 30px 8px;
-  padding: 15px;
+  padding: 5px;
   background-color: #eee;
   box-sizing: border-box;
   border-radius: 5px; 
@@ -75,30 +75,69 @@ h5 {
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
+  #main {
+    margin: 0;
+    background-color: #eee;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
   h1 {
     font-size: 1.5rem;
     margin-top: 10px;
     text-align: center;
   }
   
+  #image {
+    background: white;
+    padding: 1px;
+    margin: 0;
+  }
+
   img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 5px;
     width: 100%;
-    height: 50vh;
   }
-  
+
   figcaption {
     margin: 10px;
     text-align: center;
     font-size: small;
   }
-  
-  li {
-    margin: 14px 0;
-    font-size: smaller;
+
+  ul {
+    line-height: 1.6;
   }
+
+  li {
+    margin: 16px 30px 16px 0;;
+  }
+
+  h4 {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  blockquote {
+    text-align: start;
+    font-style: italic;
+    font-size: 18px;
+    padding: 0 40px;
+    margin: 0 auto 50px auto;
+    font-size: medium;
+  }
+
+  blockquote p {
+    text-align: start;  
+  }
+
+  h5{
+    text-align: center;
+    padding: 0;
+    margin-bottom: 30px 0;
+    font-size: 15px;
+  }
+
 }
